@@ -416,7 +416,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     height: 800px;
-    border: 1px solid rgba(255, 255, 255, 0.038);
+    /*border: 1px solid rgba(255, 255, 255, 0.038); */
     margin-bottom: 25%;
     overflow: hidden;
     position: relative;
