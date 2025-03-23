@@ -443,6 +443,7 @@ li a:hover {
     position: absolute;
     color: rgba(255, 255, 255, 0.396);
     top: 50px;
+    padding-top: 10px;
 }
 
 .project-cards .project-image {
