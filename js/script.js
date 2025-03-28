@@ -10,3 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function()  {
+    const scrollToTop = document.getElementById("scroll-to-index");
+
+    scrollToTop.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});

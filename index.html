@@ -11,8 +11,8 @@
 </head>
 <body class="loading" id="content">
         <div class="nav">
-            <div class="logo">
-                <a href="index.html">Joel Anto</a>
+            <div class="logo"  id="scroll-to-index">
+                <a href="#index">Joel Anto</a>
                 <!--<div class="mode-toggle">
                     <button id="theme-toggle">🌙</button>
                 </div>
@@ -24,10 +24,10 @@
                 <span></span>
             </button>
             <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            
+            <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="contact.html" id="contact-hover">Contact me</a></li>
+            <li><a href="#contact" id="contact-hover">Contact me</a></li>
             </ul>
             <div class="icons">
                 <a href="https://github.com/j0ec0de"><img src="assets/icons/iconmonstr-github-1.svg"></a>
@@ -35,6 +35,7 @@
                 <a href="mailto:joelanto386@gmail.com"><img src="assets/icons/iconmonstr-gmail-1(1).svg"></a>
             </div>    
         </div>
+    <section id="about" class="about">
         <div class="container">
             <div class="box">
                 <div class="content">
@@ -119,6 +120,7 @@
                 </div>
             </div>
         </div>
+    </section>
         <section id="projects" class="projects">
             <div class="projects-section">
                 <h2>My Projects</h2>
@@ -237,6 +239,33 @@
             </div>
     
         </section>
+
+        <!--Contact--->
+
+        <section id="contact" class="contact">
+            <div class="container" id="container-contact">
+                <div class="contact-box">
+                    <h2 id="contact-h2">Contact me</h2>
+                    <p>You can contact me via Email, Discord or Instagram. I usually respond within a day.</p>
+                    <div class="contact-icons">
+                        <div class="icon-item">
+                            <a href="https://www.instagram.com/yourprofile"><img src="assets/icons/iconmonstr-instagram-11.svg" alt="Instagram"></a>
+                            <span>joelant0</span>
+                        </div>
+                        <div class="icon-item">
+                            <a href="mailto:joelanto386@gmail.com"><img src="assets/icons/iconmonstr-gmail-1(1).svg" alt="Email"></a>
+                            <span>joelanto386@gmail.com</span>
+                        </div>
+                        <div class="icon-item">
+                            <a href="https://www.linkedin.com/in/joel-anto-18821729a/"><img src="assets/icons/iconmonstr-linkedin-3.svg" alt="LinkedIn"></a>
+                            <span>Joel Anto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-content">
@@ -254,6 +283,8 @@
             </div>
         </div>
     </footer>
+
+
         
     <script src="/js/script.js"></script>
     <script src="/js/text-scroll-animations.js"></script>  

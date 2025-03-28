@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Montserrat:wght@600&display=swap');
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* Base styles */
 body {
     background-color: #121212;
@@ -155,7 +160,7 @@ li a:hover {
 
 .container .box {
     margin-top: 70px;
-    border: 1px solid rgba(143, 143, 143, 0.214);
+    border: 1px solid rgba(143, 143, 143, 0.064);
     position: relative;
     padding: 20px;
     border-radius: 10px;
@@ -549,6 +554,16 @@ li a:hover {
     color: #8038EC;
 }
 
+
+
+/*Contacts section in index*/
+
+#container-contact {
+    margin-top: 0%;
+}
+
+
+
 /* Footer Section */
 .footer {
     background-color: #151515;
@@ -656,7 +671,6 @@ li a:hover {
 
 /* Contact styles */
 .contact-box {
-    margin-top: 60px;
     height: auto;
     min-height: 250px;
     border: 1px solid rgba(255, 255, 255, 0.229);
