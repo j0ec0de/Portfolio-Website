@@ -160,7 +160,7 @@ li a:hover {
 
 .container .box {
     margin-top: 70px;
-    border: 1px solid rgba(143, 143, 143, 0.064);
+    border: 1px solid rgba(143, 143, 143, 0.138);
     position: relative;
     padding: 20px;
     border-radius: 10px;
@@ -537,6 +537,10 @@ li a:hover {
 }
 
 
+#flask-icon {
+    filter: invert(100%);
+}
+
 
 /* Timeline Section */
 .timeline-section {
@@ -626,48 +630,7 @@ li a:hover {
     filter: brightness(0) saturate(100%) invert(39%) sepia(85%) saturate(6511%) hue-rotate(256deg) brightness(95%) contrast(95%);
 }
 
-/* About Section */
-#about-h2 {
-    font-size: 2rem;
-}
 
-#about-p {
-    font-size: 1rem;
-}
-
-#about-h3 {
-    font-size: 1.25rem;
-}
-
-.image-frame {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 5px solid #8038EC;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 0 auto 20px;
-    display: block;
-}
-
-.image-frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-#about-list li {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    display: block;
-}
-
-#about-p2 {
-    font-size: 1rem;
-    clear: both;
-    display: block;
-    margin-top: 20px;
-}
 
 /* Contact styles */
 .contact-box {
@@ -737,6 +700,7 @@ li a:hover {
     opacity: 1;
     transform: translateX(0);
 }
+
 
 /* Preloader */
 #preloader {
