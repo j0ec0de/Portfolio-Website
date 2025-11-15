@@ -395,6 +395,7 @@ li a:hover {
 }
 
 .project-cards {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -465,7 +466,9 @@ li a:hover {
     display: flex;
     width: 120px;
     height: 40px;
-    border: 1px solid white;
+    font-weight: 600;
+    background-color: black;
+    /* border: 1px solid white; */
     border-radius: 100px;
     justify-content: center;
     align-items: center;
@@ -1038,6 +1041,7 @@ li a:hover {
         width: 90px;
         height: 30px;
         font-size: 0.7rem;
+        
     }
     
     .image-frame {
