@@ -942,6 +942,12 @@ li a:hover {
         height: 35px;
         font-size: 0.8rem;
     }
+
+    .button {
+        width: 100px;
+        height: 35px;
+        font-size: 0.6rem;
+    }
     
     .contact-box {
         padding: 15px;
@@ -1048,6 +1054,7 @@ li a:hover {
   line-height: 1;
   text-decoration: none;
   display: inline-flex;
+  justify-content: center;
   border: none;
   cursor: pointer;
   align-items: center;
