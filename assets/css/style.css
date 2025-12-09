@@ -377,42 +377,125 @@ li a:hover {
     font-family: 'Poppins', sans-serif;
 }
 
-.experience-box {
+.minimal-section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+
+.minimal-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.minimal-item {
+    display: grid;
+    grid-template-columns: 150px 20px 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+    align-items: start;
+}
+
+.minimal-year {
+    text-align: right;
+    color: #666;
+    font-size: 1.1rem;
+    padding-top: 5px;
+}
+
+.minimal-dot-container {
+    position: relative;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 200px;
+    align-items: center;
+}
+
+.minimal-dot {
+    width: 20px;
+    height: 20px;
+    background: #00f5ff;
+    border-radius: 50%;
     position: relative;
-    font-size: 16px;
-    text-align: left;
-    padding: 10px;
+    z-index: 2;
+    box-shadow: 0 0 20px #00f5ff;
 }
 
-
-.year {
-    color: rgba(255, 255, 255, 0.396);
+.minimal-line {
+    width: 2px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 20px;
 }
 
-#pos {
-    padding: 10px;
-    text-align: center;    
+.minimal-content-box {
+    padding: 25px 0;
 }
 
-.content {
-    padding-top: 10px;
-    color: rgba(255, 255, 255, 0.691);
+.minimal-position {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #00f5ff;
 }
 
-
-.experience-box:hover {
-background: rgba(0, 0, 0, 0.155);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.7px);
--webkit-backdrop-filter: blur(3.7px);
-border: 1px solid rgba(255, 255, 255, 0.14);
+.minimal-company {
+    color: #888;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
 }
 
+.minimal-text {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.8;
+    font-size:  1.2rem;
+}
+
+        @media screen and (max-width: 768px) {
+            .minimal-content-box {
+                padding: 10px;
+            }
+            .minimal-item {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .minimal-year {
+                text-align: left;
+            }
+
+            .minimal-dot-container {
+                display: none;
+            }
+
+            .stack-card {
+                padding: 25px;
+            }
+
+            .terminal-section {
+                padding: 20px;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .minimal-text {
+                font-size: 0.7rem;
+            }
+
+            .minimal-section h2 {
+                font-size: 1.5rem;
+            }
+            
+        }
+
+        @media screen and (max-width: 375px) {
+            .minimal-text {
+                font-size: 0.7rem;
+            }
+            
+        }
 
 /* Projects section */
 .projects-section h2 {
